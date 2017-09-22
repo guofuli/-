@@ -48,5 +48,39 @@ git check out 分支名字
 git push -u orgin 分支名字
 上传到新的分支
 
+git clone  网址
+
+
+
+
+doc环境下进入要操作的路径
+git init
+
+git status
+
+git add --all
+
+git commit -m "提交说明"
+
+在github上创建一个仓库
+
+git remote add orgin 网址
+
+git push -u orgin master
+
+
+创建一个新的分支
+git branch  gh-pages
+
+
+切换到当前分支
+git checkout gh-pages
+
+git  push -u orgin gh-pages
+更新到当前分支
+
+地址。名字.github.io/项目名字
+例如：michua.github.io/wjs
+
 
 
