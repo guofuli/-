@@ -35,3 +35,18 @@ git log
 
 git reset --hard 2d2250
 恢复到上一个版本
+
+git branch
+查看当前分支
+git branch v2
+创建一个新的分支
+
+git check out 分支名字
+切换到那个分支
+
+
+git push -u orgin 分支名字
+上传到新的分支
+
+
+
