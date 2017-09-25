@@ -1,0 +1,26 @@
+
+git push -u origin master
+
+fatal: unable to access 'https://github.com/guofuli/test.git/': Failed to connect to github.com port 443: Timed out
+
+
+解决：
+参考这个网址：
+http://blog.csdn.net/u012552275/article/details/61654857
+
+如果无法访问：
+1、ping github.com
+  如果ping 失败
+  
+2、查看host文件
+  
+   host文件路径：C:\Windows\System32\drivers\etc 
+   
+3、在host文件最后追加后，保存，ping github.com就可以成功了
+    192.30.253.113    github.com
+	192.30.252.131 github.com
+	185.31.16.185 github.global.ssl.fastly.net
+	74.125.237.1 dl-ssl.google.com
+	173.194.127.200 groups.google.com
+	192.30.252.131 github.com
+	185.31.16.185 github.global.ssl.fastly.net
