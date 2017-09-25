@@ -66,7 +66,7 @@ git commit -m "提交说明"
 
 git remote add orgin 网址
 
-git push -u orgin master
+git push -u origin master
 
 
 创建一个新的分支
@@ -76,11 +76,34 @@ git branch  gh-pages
 切换到当前分支
 git checkout gh-pages
 
-git  push -u orgin gh-pages
+git  push -u origin gh-pages
 更新到当前分支
 
 地址。名字.github.io/项目名字
 例如：michua.github.io/wjs
 
 
+博客搭建
+hexo
 
+必要条件：
+Node.js
+Git
+在doc下进入要创建博客的目录。
+运行这个命令：npm install -g hexo-cli
+运行成功后
+
+运行：hexo init blog
+     其中blog是博客名字
+     
+     
+进入到blog目录，cd  blog
+
+
+启动服务： hexo serve
+运行成功
+
+就可以访问了。
+
+使用 hexo generate命令生成一个public文件
+把这个public文件托管到github上就可以使用了
