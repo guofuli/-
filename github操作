@@ -1,7 +1,8 @@
 把项目上传到github
 1、git init
 
-2、git add README.md
+2、 git add --all
+上传当前目录中所有文件
 
 
 3、git commit -m "first commit"
